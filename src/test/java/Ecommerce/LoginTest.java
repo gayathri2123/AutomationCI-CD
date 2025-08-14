@@ -18,7 +18,6 @@ import java.util.List;
 //set PATH=%JAVA_HOME%\bin;%PATH%
 //java -jar jenkins.war -httpPort=9090
 
-
 //to run in cmd maven
 //move to D:\seleniumFramework using D:
 public class LoginTest extends BaseTest{
