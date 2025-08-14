@@ -5,26 +5,26 @@
         <listener class-name="Ecommerce.TestComponent.Listeners"/>
     </listeners>
 
-<!--    <test thread-count="5" preserve-order="true" name="failedCase">-->
-<!--        <classes>-->
-<!--            <class name="Ecommerce.FailedCaseTest">-->
-<!--                <methods>-->
-<!--                    <include name="ecommerceLoginCheck"/>-->
-<!--                </methods>-->
-<!--            </class>-->
-<!--        </classes>-->
-<!--    </test>-->
+    <test thread-count="5" preserve-order="true" name="failedCase">
+        <classes>
+            <class name="Ecommerce.FailedCaseTest">
+                <methods>
+                    <include name="ecommerceLoginCheck"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
 
-<!--    <test thread-count="5" preserve-order="true" name="Login">-->
-<!--        <classes>-->
-<!--            <class name="Ecommerce.LoginTest">-->
-<!--                <methods>-->
-<!--                    <include name="ecommerceE2E"/>-->
-<!--                    <include name="verifyOrderHistory"/>-->
-<!--                </methods>-->
-<!--            </class>-->
-<!--        </classes>-->
-<!--    </test>-->
+    <test thread-count="5" preserve-order="true" name="Login">
+        <classes>
+            <class name="Ecommerce.LoginTest">
+                <methods>
+                    <include name="ecommerceE2E"/>
+                    <include name="verifyOrderHistory"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
 
     <!-- ✅ New Cucumber Runner Test -->
     <test thread-count="1" preserve-order="true" name="Cucumber E2E">
